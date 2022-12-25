@@ -3,6 +3,7 @@
 Yet another update we both did not see coming. Pure SU v3 adds support for the new SU in Gens developments and more!
 
 - Changes I have made:
+- 
 [Addition] Added Super Sonic's model
 
 [Addition] Restored all Unleashed voice clips and parameters
@@ -12,6 +13,7 @@ Yet another update we both did not see coming. Pure SU v3 adds support for the n
 [Addition] Extra little stuff
 
 - Changes made by K1:
+- 
 [Addition] Added a configuration
 
 [Addition] Led this update
@@ -23,6 +25,7 @@ Yet another update we both did not see coming. Pure SU v3 adds support for the n
 [Addition] UP: The Complete Addon support
 
 - Changes made by Pudding_:
+- 
 [Addition] Ported various Unleashed particle effects for both Sonic and Super Sonic.
 
 [Addition] SU Boost & Empty boost, sliding, bomb explosions particles
@@ -30,16 +33,19 @@ Yet another update we both did not see coming. Pure SU v3 adds support for the n
 [Addition] Fixed QTE animation, rank and jumpselector animations
 
 - Changes made by Loco
+- 
 [Addition] SU Restorations support
 
 [Addition] Added Luna's code to briannnu's DLL to fix the mouth swap issue with SU models for Gens
 
 - Changes made by Exe.Qution
+- 
 [Addition] 1up, enemy explosion, enemy spawn and medal collection particles
 
 [Addition] SU wall run animations (we just had to invert L and R anims for this)
 
 - Changes made by iulian
+- 
 [Addition] Unleashed enemy shaders & materials
 
 [Addition] Unleashed enemy models
