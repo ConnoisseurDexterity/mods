@@ -77,10 +77,6 @@ add disk_main/disk/bb3/SonicSsz.ar.00
 add disk_main/disk/bb3/SonicSsz.arl
 add disk_main/disk/bb3/SonicWater.ar.00
 add disk_main/disk/bb3/SonicWater.arl
-add disk_main/disk/bb3/Sonic.ar.01
-add disk_main/disk/bb3/Sonic.ar.02
-add disk_main/disk/bb3/Sonic.ar.03
-add disk_main/disk/bb3/Sonic.arl
 add disk_2d_cam/disk/bb/#cmn200.ar.00
 add disk_2d_cam/disk/bb/cmn200.ar.00
 add disk_chip/disk/bb3/Sonic.ar.00
