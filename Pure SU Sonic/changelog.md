@@ -1,6 +1,5 @@
 ## Pure SU Sonic 3.0
-- Improved Sonic's materials
--
+
 Yet another update we both did not see coming. Pure SU v3 adds support for the new SU in Gens developments and more!
 -
 Changes I have made:
