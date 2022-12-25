@@ -1,13 +1,36 @@
 {
-   "Groups":[
+   "Groups": [
       {
-         "Name":"Main",
-         "DisplayName":"Configuration",
-         "Elements":
-         [
+         "Name": "Main",
+         "DisplayName": "Configuration",
+         "Elements": [
 			{
-               "Name":"IncludeDir1",
-               "DisplayName":"Sonic's Physics",
+               "Name": "IncludeDir0",
+               "DisplayName": "Voice Language",
+               "Description": [
+                  "Determine the language and voice of Sonic.",
+               ],
+               "Type": "VoiceEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "disk_eng"
+            },
+			
+			
+			{
+               "Name": "IncludeDir1",
+               "DisplayName": "Accessories",
+               "Description": [
+                  "Allows you to enable/disable Chip's Bracelet.",
+               ],
+               "Type": "ChipEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "disk_retail"
+            },
+			{
+               "Name":"IncludeDir2",
+               "DisplayName":"Unleashed Physics",
                "Description":[
                   "Determines if the game will use Unleashed physics or vanilla Generations physics",
                ],
@@ -16,29 +39,89 @@
                "MaxValue":null,
                "DefaultValue":"disk_physics"
             },
-			
+			{
+               "Name": "IncludeDir3",
+               "DisplayName": "Unleashed 2D Camera",
+               "Description": [
+                  "Determine to have the default 2D camera closer to Sonic like in Unleashed ",
+               ],
+               "Type": "CameraEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "disk_2d_cam"
+            },		
          ]
       }
    ],
-   "Enums":{
+   "Enums": {
+	  "VoiceEnum": [
+         {
+            "DisplayName": "English",
+            "Value": "disk_eng",
+            "Description": [
+               "Uses the English Voice (Jason Griffith) for Sonic.",
+            ]
+         },
+         {
+            "DisplayName": "Japanese",
+            "Value": "disk_jpn",
+            "Description": [
+               "Uses the Japanese Voice (Jun'ichi Kanemaru) for Sonic.",
+            ]
+         },
+         
+      ],
+      "ChipEnum": [
+         {
+            "DisplayName": "Chip's Bracelet",
+            "Value": "disk_chip",
+            "Description": [
+               "Pure SU Sonic is now rocking his friend's bracelet.",
+            ]
+         },
+         {
+            "DisplayName": "No Bracelet",
+            "Value": "disk_retail",
+            "Description": [
+               "It does what it says on the tin love ;)",
+            ]
+         },	 
+         
+      ],  
       "PhysicsEnum":[
          {
-            "DisplayName":"Unleashed physics",
-            "Value":"disk_physics",
+            "DisplayName": "Unleashed physics",
+            "Value": "disk_physics",
             "Description":[
                "Use Unleashed physics",
             ]
          },
 		 {
-            "DisplayName":"Generations physics",
-            "Value":"disk_dummy",
+            "DisplayName": "Generations physics",
+            "Value": "disk_dummy",
             "Description":[
-              "Use vanilla Generations physics
-                ",
+              "Use vanilla Generations physics",
+            ]
+         },
+		 
+      ],
+	  "CameraEnum":[
+         {
+            "DisplayName": "Enable",
+            "Value": "disk_2d_cam",
+            "Description":[
+               "Enable Unleashed 2D Camera",
+            ]
+         },
+		 {
+            "DisplayName": "Disable",
+            "Value": "disk_dummy",
+            "Description":[
+              "Disable Unleashed 2D Camera",
             ]
          },
 		 
       ],
    },
-   "IniFile":"mod.ini"
+   "IniFile": "mod.ini"
 }

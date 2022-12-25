@@ -22,3 +22,28 @@ WriteProtected<byte>(0xDF0C06, 0x14);
 WriteProtected<uint>(0xDF0C08, 0x2DCE9D); /*4-way cannon (false direction on Unleashed jump selector)*/
 WriteProtected<byte>(0xDF0B94, 0x14);
 WriteProtected<uint>(0xDF0B96, 0x2DCE9D); /*true direction on Unleashed jump selector (Unused in Generations)*/
+
+Patch "Disable Spin Dash on Dash Panels" by "Hyper"
+WriteProtected<byte>(0xE0AC1C, 0xE9, 0x27, 0x01, 0x00, 0x00);
+WriteProtected<byte>(0xE0C734, 0xE9, 0x27, 0x01, 0x00, 0x00);
+
+Patch "Unleashed Style Grinding Animations & No Boosting Animation When Grinding" by "Skyth"
+WriteProtected<ushort>(0xDF2380, 0xA4E9);
+WriteProtected<byte>(0xDF2382, 0x0);
+WriteNop(0xDF2385, 1);
+WriteProtected<byte>(0xDF2356, 0xEB);
+WriteProtected<byte>(0xDF2485, 0xEB);
+
+Patch "Disable Light Dash Particles" by "Hyper"
+WriteProtected<byte>(0x10538EB, 0xE9, 0x8F, 0x00, 0x00, 0x00, 0x90);
+
+Patch "Collect 10-Ring Instantly" by "brianuuu"
+WriteNop(0xE4155E, 2);
+WriteNop(0xE415C8, 2);
+WriteProtected<int>(0xE4157A, -1);
+
+Patch "Unleashed Stick Deadzones" by "M&M"
+WriteProtected<byte>(0x16055EC, 0x69); /* InputThreshold (0.02f) */
+WriteProtected<byte>(0xE75F93, 0x38, 0x71); /* InputTransformHalf (0.85f) */
+WriteProtected<byte>(0x1605610, 0x69);
+WriteProtected<byte>(0x160562C, 0x69); /* InputTransformPower (3.0f) */
