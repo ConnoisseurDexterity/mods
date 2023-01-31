@@ -1,3 +1,8 @@
+## Pure SU Sonic 3.1
+- Fixed Japanese results & quick step voices
+- Removed files that are no longer required for SU Restorations support
+- Brought back the Goal Ring ambient sfx
+
 ## Pure SU Sonic 3.0
 
 Yet another update we both did not see coming. Pure SU v3 adds support for the new SU in Gens developments and more!
