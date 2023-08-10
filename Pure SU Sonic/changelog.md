@@ -1,3 +1,12 @@
+## Pure SU Sonic 3.2
+- Restored the proper max jump animation
+- Fixed drowning animation
+- Restored SU Jump Selector Particle
+- Fixed underwater physics
+- Added slight green tint to the boost aura
+- Added Sun Medal Support for the Reappear Red Ring mod by brianuuuSonic
+- Added 'Unleashed Style Camera' Code
+
 ## Pure SU Sonic 3.1
 - Fixed Japanese results & quick step voices
 - Removed files that are no longer required for SU Restorations support
