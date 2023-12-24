@@ -13,7 +13,7 @@
                "Type": "VoiceEnum",
                "MinValue": null,
                "MaxValue": null,
-               "DefaultValue": "disk_eng"
+               "DefaultValue": "disk_dummy"
             },
 			
 			
@@ -26,7 +26,7 @@
                "Type": "ChipEnum",
                "MinValue": null,
                "MaxValue": null,
-               "DefaultValue": "disk_retail"
+               "DefaultValue": "disk_dummy"
             },
 			{
                "Name":"IncludeDir2",
@@ -57,7 +57,7 @@
 	  "VoiceEnum": [
          {
             "DisplayName": "English",
-            "Value": "disk_eng",
+            "Value": "disk_dummy",
             "Description": [
                "Uses the English Voice (Jason Griffith) for Sonic.",
             ]
@@ -81,7 +81,7 @@
          },
          {
             "DisplayName": "No Bracelet",
-            "Value": "disk_retail",
+            "Value": "disk_dummy",
             "Description": [
                "It does what it says on the tin love ;)",
             ]
