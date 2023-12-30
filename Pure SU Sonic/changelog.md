@@ -1,3 +1,14 @@
+## Pure SU Sonic 3.3
+IT'S DEXEMBER LADS! Thank you all for your incredible support. We hit 2,852 downloads for the last build 4 months back. That's insane! We're bringing a new update that polishes, adds and optimises the mod. Please take a look at the changes:
+
+- THIS UPDATE HAS BEEN BROUGHT TO YOU BY THEKOLDK1
+
+- Added support for UP: Complete Addon's new update
+- Restored SU frontal boost colour
+- Restored seaspray sound for the Japanese sound archive
+- This mod now makes use of the new AR file loading method -> +NameOfARfile.ar/arl. This means the mod isn't as big as it used to be which is absolutely fantastic!
+- Cleaned up the folder layout & files to avoid duplicate files.
+
 ## Pure SU Sonic 3.2
 - Restored the proper max jump animation
 - Fixed drowning animation
